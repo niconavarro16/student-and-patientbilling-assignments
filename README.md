@@ -23,14 +23,20 @@ In this last graph, we are getting the total balance due by payment class and is
 
 #2.PATIENT BILLING README
 
+What I did first is a code to extract only the first word so in that way I could filter some reasons of visit because there were too many. For instance, if there were two reasons that were "hypertension" and other one "hypertension monitoring", then I joined them as "hypertension". 
+
 ### proportion of visit reasons by month
 <img src="PatientBillingFolder/proportion of visit reasons per month.png" height = 250, width = 400>
+I did a stacked bar chart that reflects the proportion of visits depending of the reason why they did that visit. First off, we only got 7 different months from the data, and analyzing it we get that the annual visit is the most common one.
 
 ### reason for visit based on walk-in status
 <img src="PatientBillingFolder/reason-visit-walIN.png" height = 250, width = 400>
+We can see something similar to the previous graph with the annual reason dominating over the others. Besides this, we can see some walk-in reasons like influenza or some false walk-in reasons like COPD or hypertension.
 
 ### visit count by invoice amount, aggregated by reason
 <img src="PatientBillingFolder/visit-counts-incoiceamt-reason.png" height = 250, width = 400>
+In this graph we can see a clear amount that stands out from others and is the invoice amount of 125.
 
 ### average invoice amount by visit reason
 <img src="PatientBillingFolder/avg-invoiceamt-reason.png" height = 250, width = 400>
+In this last graph we have the average invoice amount by visit reaosn where the insights are spotted, hypotension, hypertension, and cardiac reasons are the ones with the highest invoice amount.
